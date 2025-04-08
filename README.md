@@ -65,6 +65,10 @@ From there, we narrowed down our idea to focus on skincare — targeting a **spe
 1. Make sure you have **Python 3.x** installed.
 2. Save the file as ` Dr.ShethChatBot.py`.
 3. Open terminal or command prompt and run:
+   
+```bash
+python Dr.ShethChatBot.py
+```
 
 ## 📸 Screenshots
 
@@ -82,6 +86,3 @@ Here are some glimpses of the chatbot in action:
 ![Bill](https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b?raw=true)
 
 📄 Click here to view the [Final Project Report](https://1drv.ms/w/c/2bfad755a840dada/Ebb1EMiSoT5Lv4ifQZVcV_YBAnbfkfQWTbf7io_qKBL-6A?e=h67gEX)
-
-```bash
-python Dr.ShethChatBot.py
