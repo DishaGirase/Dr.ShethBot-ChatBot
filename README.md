@@ -87,6 +87,6 @@ Here are some glimpses of the chatbot in action:
 
 ## 🎥 Demo
 
-![Chatbot Demo](https://1drv.ms/v/c/2bfad755a840dada/EZkUxJvbd35NkPjx5ZNLJa0BsADvNhWJ15S09WGewrT16A)
+🎬 [Click here to watch the chatbot demo](https://1drv.ms/v/c/2bfad755a840dada/EZkUxJvbd35NkPjx5ZNLJa0BsADvNhWJ15S09WGewrT16A)
 
 📄 Click here to view the [Final Project Report](https://1drv.ms/w/c/2bfad755a840dada/Ebb1EMiSoT5Lv4ifQZVcV_YBAnbfkfQWTbf7io_qKBL-6A?e=h67gEX)
