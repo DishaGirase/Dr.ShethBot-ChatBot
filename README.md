@@ -81,6 +81,7 @@ Here are some glimpses of the chatbot in action:
 ### 🧾 Bill Summary
 ![Bill](https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b?raw=true)
 
+📄 Click here to view the [Final Project Report](https://1drv.ms/w/c/2bfad755a840dada/Ebb1EMiSoT5Lv4ifQZVcV_YBAnbfkfQWTbf7io_qKBL-6A?e=h67gEX)
 
 ```bash
 python Dr.ShethChatBot.py
