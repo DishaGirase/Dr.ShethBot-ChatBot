@@ -1,6 +1,6 @@
 # 🧴 Dr.ShethBot – E-Commerce Chatbot for Skincare Products
 
-A beginner-friendly chatbot built using Python and Tkinter that simulates a skincare shopping assistant for **Dr.Sheth**, a luxury skincare brand. Users can order selectively listed products, view their cart, remove items, and generate a bill — all through a chatbot interface!
+A beginner-friendly chatbot built using Python and Tkinter that simulates a skincare shopping assistant for **Dr.Sheth**, a skincare brand. Users can order selectively listed products, view their cart, remove items, and generate a bill — all through a chatbot interface!
 
 ---
 
