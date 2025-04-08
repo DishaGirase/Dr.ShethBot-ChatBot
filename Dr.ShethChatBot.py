@@ -3,7 +3,6 @@ from tkinter import scrolledtext
 import random
 import re
 
-# Available items and their prices
 available_items = {
     "body lotion": 307,
     "body wash": 298,
@@ -16,12 +15,10 @@ available_items = {
     "face mask": 310
 }
 
-# State and Order Storage
 current_state = None
 order_dict = {}
 orders_db = {}
 
-# Generate unique Order ID
 def generate_order_id():
     return str(random.randint(1000, 9999))
 
@@ -35,7 +32,6 @@ def get_order_summary(order):
         summary += f"\n{qty} x {item.title()} (₹{available_items[item]} each) = ₹{available_items[item] * qty}"
     return summary
 
-# GUI Setup
 root = tk.Tk()
 root.title("Dr.ShethBot")
 root.geometry("600x600")
@@ -45,18 +41,15 @@ chat_area = scrolledtext.ScrolledText(root, wrap=tk.WORD, font=("Segoe UI", 12),
 chat_area.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 chat_area.config(state=tk.DISABLED)
 
-# Entry + Button Frame
 input_frame = tk.Frame(root, bg="#fef8f4")
 input_frame.pack(fill=tk.X, padx=10, pady=10)
 
 user_input = tk.Entry(input_frame, font=("Segoe UI", 12), bg="#fbeeee")
 user_input.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10))
 
-# Send Button
 send_btn = tk.Button(input_frame, text="Send", font=("Segoe UI", 10), command=lambda: send_message(), bg="#e6b5ab")
 send_btn.pack(side=tk.LEFT, padx=(5, 0))
 
-# Exit Button
 exit_btn = tk.Button(input_frame, text="Exit", font=("Segoe UI", 10), command=root.destroy, bg="#e6b5ab")
 exit_btn.pack(side=tk.RIGHT)
 
@@ -84,7 +77,7 @@ def send_message():
         root.after(2000, root.destroy)
         return
 
-    # View Cart
+
     if "view cart" in user_msg_lower:
         if order_dict:
             summary = get_order_summary(order_dict)
@@ -92,12 +85,10 @@ def send_message():
         else:
             add_message("Your cart is empty 🛒. Start adding your skincare treats!", "bot")
 
-    # Clear Cart
     elif "clear cart" in user_msg_lower:
         order_dict.clear()
         add_message("Your cart has been cleared 🧼. Ready to start fresh!", "bot")
 
-    # Remove Item
     elif "remove" in user_msg_lower:
         removed = False
         for item in available_items:
@@ -120,7 +111,6 @@ def send_message():
             add_message("Couldn't find that product in your cart. Please check the name!", "bot")
 
 
-    # Billing
     elif "bill" in user_msg_lower:
         if order_dict:
             summary = get_order_summary(order_dict)
@@ -133,7 +123,6 @@ def send_message():
         else:
             add_message("Your cart is empty 🛒. Please add some items first.", "bot")
 
-    # Single item price check
     elif user_msg_lower.strip() in available_items:
         item = user_msg_lower.strip()
         price = available_items[item]
@@ -196,11 +185,8 @@ def send_message():
 
     user_input.delete(0, tk.END)
 
-# Bind Enter Key
 user_input.bind("<Return>", lambda event: send_message())
 
-# Greet User
 add_message("Hi there! 👋 How can I assist you today?\nType 'New Order' or 'Track Order' to get started.", "bot")
 
-# Run GUI
 root.mainloop()
