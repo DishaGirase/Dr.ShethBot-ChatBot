@@ -75,7 +75,7 @@ Here are some glimpses of the chatbot in action:
 
 ### 🛒 Adding Items to Cart
 ![Add Items](![add_items](https://github.com/user-attachments/assets/28b42290-2287-4ebc-ba8d-e518a70e5573))
-![add_extra_item](https://github.com/user-attachments/assets/806b8a3c-38b3-44d2-a992-95e50a711841)
+![Add Items](![add_extra_item](https://github.com/user-attachments/assets/806b8a3c-38b3-44d2-a992-95e50a711841))
 
 ### 🧾 Bill Summary
 ![Bill](![finish](https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b))
