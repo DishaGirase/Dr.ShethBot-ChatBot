@@ -66,5 +66,20 @@ From there, we narrowed down our idea to focus on skincare — targeting a **spe
 2. Save the file as ` Dr.ShethChatBot.py`.
 3. Open terminal or command prompt and run:
 
+## 📸 Screenshots
+
+Here are some glimpses of the chatbot in action:
+
+### 🧑‍💻 Chatbot Startup
+![Startup](![start](https://github.com/user-attachments/assets/4e68ef02-6b55-47f8-9157-99702d3957a5))
+
+### 🛒 Adding Items to Cart
+![Add Items](![add_items](https://github.com/user-attachments/assets/28b42290-2287-4ebc-ba8d-e518a70e5573))
+![add_extra_item](https://github.com/user-attachments/assets/806b8a3c-38b3-44d2-a992-95e50a711841)
+
+### 🧾 Bill Summary
+![Bill](![finish](https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b))
+
+
 ```bash
 python Dr.ShethChatBot.py
