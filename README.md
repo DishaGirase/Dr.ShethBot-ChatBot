@@ -71,14 +71,15 @@ From there, we narrowed down our idea to focus on skincare — targeting a **spe
 Here are some glimpses of the chatbot in action:
 
 ### 🧑‍💻 Chatbot Startup
-![Startup]((https://github.com/user-attachments/assets/4e68ef02-6b55-47f8-9157-99702d3957a5))
+![Startup](https://github.com/user-attachments/assets/4e68ef02-6b55-47f8-9157-99702d3957a5?raw=true)
 
 ### 🛒 Adding Items to Cart
-![Add Items]((https://github.com/user-attachments/assets/28b42290-2287-4ebc-ba8d-e518a70e5573))
-![Add Extra Items]((https://github.com/user-attachments/assets/806b8a3c-38b3-44d2-a992-95e50a711841))
+![Add Items](https://github.com/user-attachments/assets/28b42290-2287-4ebc-ba8d-e518a70e5573?raw=true)
+
+![Add Extra Items](https://github.com/user-attachments/assets/806b8a3c-38b3-44d2-a992-95e50a711841?raw=true)
 
 ### 🧾 Bill Summary
-![Bill]((https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b))
+![Bill](https://github.com/user-attachments/assets/4962018d-b536-4968-a5b8-faa62119456b?raw=true)
 
 
 ```bash
